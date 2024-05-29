@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto&family=Roboto+Slab:wght@100..900&family=Tourney&display=swap');
+
+*{
+  
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  
+}
+.class_container{
+  
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
+.inputlabel{
+  display:block;
+  margin-bottom:8px;
+  color:rgb(14, 77, 77);
+  font-size:20px;
+  font-weight:500;
+}
+input[type="text"]{
+  padding:12px;
+  margin-bottom:20px;
+  width:100%;
+  font-size:16px;
+  border-radius:5px;
+  border: 2px solid lightblue;
+}
+button{
+  padding: 15px 20px;
+  font-size:18px;
+  color: white;
+  border-radius:5px;
+  cursor: pointer;
+  border:none;
+  margin-top:10px;
+  width:100%;
+
+}
+.Generate_button{
+  background-color: rgb(112, 112, 255);
+  margin-left:5px;
+}
+.Dowload_button{
+  background-color:rgb(40, 166, 40);
+  margin-left:5px;
+}
+.Dowload_button:hover{
+  background-color:rgb(2, 185, 2);
+}
+.Generate_button:hover{
+  background-color: rgb(34, 34, 238);
+
+}
+.class_container h1{
+  text-align:center;
+  font-size:20px;
+  font-weight:600;
+  color:blueviolet;
+ 
+ 
+}
+.class_container p{
+  text-align:center;
+  font-size:20px;
+  font-weight:600;
+  color:rgb(0, 0, 0);
+  margin-top:30px;
+
+}
+a{
+  color: rgb(243, 13, 162);
+  text-decoration:none;
+}
+a:hover{
+color:blue;
+text-decoration:underline;
+}
+.qr-image{
+  margin-top:25px;
+  margin-bottom:25px;
+}
+.imageposition{
+  text-align:center;
+}
